@@ -20,7 +20,7 @@ Clone the repository:
 <li>Import the database structure by executing the database.sql file on your MySQL server. This will create the necessary users table.</li>
 <li>Configure the database connection in the PHP files: <br>
 Open register.php, login.php, and index.php files and update the following line with your MySQL database credentials: <br>
-```php
+```bash
 $conn = mysqli_connect("localhost", "root", "", "authentication");
 ```
 Replace "localhost" with your database host, "root" with your database username, "" with your database password, and "authentication" with your database name.
