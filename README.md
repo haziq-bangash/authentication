@@ -22,7 +22,7 @@ Clone the repository:
 Open register.php, login.php, and index.php files and update the following line with your MySQL database credentials: <br>
 <strong>
 $conn = mysqli_connect("localhost", "root", "", "authentication");
-</strong>strong> <br>
+</strong> <br>
 Replace "localhost" with your database host, "root" with your database username, "" with your database password, and "authentication" with your database name.
 </li>
 <li>Upload the PHP files to your web server.</li>
