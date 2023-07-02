@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #333;
+}
+
+#quoteContainer {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.bi-heart-fill {
+  stroke: #333;
+  fill: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.bi-heart-fill:hover {
+  stroke: none;
+  fill: red;
+}
